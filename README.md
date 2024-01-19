@@ -3,6 +3,36 @@
 # Our autonomous, life-detection rover.
 Made to compete in the University Rover Challenge 2024.
 
+# For developers
+
+**All new features and code updates must be in their own new branch, don't commit to main!**
+
+To make commits easy to follow we use the following commit etiquette:
+
+- `feat`: "feat: added auto-steering"
+- `fix`: "fix: rover stops crashing when steering..."
+- `style`: (formatting, missing semi colons, etc; no production code change)
+- `refactor`: (refactoring production code, eg. renaming a variable)
+- `test`: (adding missing tests, refactoring tests; no production code change)
+- `chore`: (updating grunt tasks etc; no production code change)
+
+All code (variables, functions, comments, etc...) must be in english!
+
+## Running (developer mode)
+
+If you are on Raspberri Pi, follow the "Setup Instructions for Raspberry Pi 4B below"
+
+If you are on windows: Cry
+
+If you are on Linux:
+
+- Install Python3.9, librealsense, pyrealsense2
+- `$ python3.9 -m pip install requirements.txt`
+- `$ python3.9  main/main.py`
+
+## Running (production)
+Coming soon (TM) gotta get KeepAlive to talk to ICR first.
+
 ## Setup Instructions for Raspberry Pi 4B
 
 Making sure your pi is up-to-date
