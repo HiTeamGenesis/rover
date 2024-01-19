@@ -13,8 +13,6 @@ if __name__ == "__main__":
 	print('\nRover Crashed!\n')
 	print(stdout, stderr, exit_code)
 
-	#Start katana again
-	
     #TODO: 
 	# - ADD RESTART 
 	# - TELL ICR ROVER CRASHED
